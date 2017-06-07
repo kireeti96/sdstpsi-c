@@ -1,0 +1,50 @@
+/*vertical navigation bar*/
+ul{
+    border: 1px solid transparent;
+    list-style-type: none;
+    margin: 2;
+    padding: 0;
+    width: 20%;
+    background-color: transparent;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li{
+    border-bottom: 1px solid transparent;
+}
+body{
+    background-image: url(http://www.publicdomainpictures.net/pictures/40000/velka/blue-abstract-background.jpg);
+    background-size: 100% 400%;
+}
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: greenyellow;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+p{
+    display: inline-block;
+    align-content: flex-start;
+}
+section{
+    display: inline-block;
+}
+div{
+    display: inline-block;
+    align-content: flex-end;
+}
